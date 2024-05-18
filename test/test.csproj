@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fleet Management App\Fleet Management App.csproj" />
+    <ProjectReference Include="..\managementclasses\managementclasses.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FPro">
+      <HintPath>..\..\FPro.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
